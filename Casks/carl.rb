@@ -4,22 +4,22 @@ cask "carl" do
 
   on_macos do
     on_intel do
-      sha256 "c86217621e283173809e33e32093f59229357903f5c22160258846733c835e00"
+      sha256 "19018f92219beca153043ea0cb865e23dfb46a5fb3e70529e6439e991c9fa41f"
       url "https://github.com/goldjg/cARL/releases/download/v#{version}/carl_#{version}_darwin_amd64.tar.gz"
     end
     on_arm do
-      sha256 "9c0ac7ad20533fe1fe3a8551dc8e0ce99cb131c919977fa1576c50d5b886ae99"
+      sha256 "525401b71f3771101af9b6837e1f6325b1101962995a9553fc40ecc042930ad5"
       url "https://github.com/goldjg/cARL/releases/download/v#{version}/carl_#{version}_darwin_arm64.tar.gz"
     end
   end
 
   on_linux do
     on_intel do
-      sha256 "bc1757f6647a5622114f674292ae945ce4f4c01428f93f4e65324d44c1cecc65"
+      sha256 "2aa15f49ee44a63a467d0d39dcf725e69d7cad914cd92f262b94ccf06c0f0629"
       url "https://github.com/goldjg/cARL/releases/download/v#{version}/carl_#{version}_linux_amd64.tar.gz"
     end
     on_arm do
-      sha256 "1a77dcfaae9195f6f5974b365835fd4b2af6920ddca5e0b6f0c0f0d4666863f3"
+      sha256 "d9e5a553b616280e89496a5b8a81cbe21603b24dc933b6822bb0b6df59fece18"
       url "https://github.com/goldjg/cARL/releases/download/v#{version}/carl_#{version}_linux_arm64.tar.gz"
     end
   end
